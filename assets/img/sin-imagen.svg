@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Imagen no disponible">
+<title>Imagen no disponible</title>
+<rect width="800" height="800" fill="#EFE4D2"/><defs><radialGradient id="r50" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#E6D3B5"/><stop offset=".6" stop-color="#C9AE86"/><stop offset="1" stop-color="#9C7F58"/></radialGradient></defs>
+<g transform="rotate(0 400 370)">
+<ellipse cx="400" cy="517.25" rx="153" ry="18.599999999999998" fill="#3A2412" opacity=".35"/>
+<ellipse cx="400" cy="370" rx="170" ry="155" fill="url(#r50)"/>
+<path d="M 400 215 q 4 -14 12 -18" stroke="#5A3A1C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="340.5" cy="300.25" rx="47.6" ry="21.700000000000003" fill="#fff" opacity=".22" transform="rotate(-25 340.5 300.25)"/>
+</g><text x="400" y="640" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#7A5A3A">Imagen no encontrada</text>
+<text x="400" y="682" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9C7F58">Revisa el nombre del archivo</text>
+</svg>

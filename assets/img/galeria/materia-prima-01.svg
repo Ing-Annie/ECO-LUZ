@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Tutumas naturales seleccionadas sobre la mesa de trabajo">
+<title>Tutumas naturales seleccionadas sobre la mesa de trabajo</title>
+<defs><linearGradient id="w19" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C39163"/><stop offset="1" stop-color="#8A5E36"/></linearGradient>
+<radialGradient id="w19l" cx="30%" cy="0%" r="90%"><stop offset="0" stop-color="#FFF8EA"/><stop offset="1" stop-color="#EFE4D2"/></radialGradient></defs>
+<rect width="1200" height="600" fill="url(#w19l)"/>
+<rect y="600" width="1200" height="300" fill="url(#w19)"/><path d="M 0 678.1 Q 360 677.7 720 678.1 T 1200 673.3" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 694.3 Q 360 697.4 720 694.3 T 1200 691.1" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 727.9 Q 360 727.6 720 727.9 T 1200 724.7" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 644.7 Q 360 645.3 720 644.7 T 1200 648.9" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 866.8 Q 360 873.4 720 866.8 T 1200 869.9" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 722.8 Q 360 722.4 720 722.8 T 1200 721.9" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 830.2 Q 360 826.6 720 830.2 T 1200 827.7" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 760.7 Q 360 758.1 720 760.7 T 1200 758.7" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 821.5 Q 360 824.6 720 821.5 T 1200 821.5" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/>
+<rect y="600" width="1200" height="5" fill="#D8AE80"/><defs><radialGradient id="r20" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#D8A96C"/><stop offset=".6" stop-color="#A06C3A"/><stop offset="1" stop-color="#5A3618"/></radialGradient></defs>
+<g transform="rotate(-8 330 560)">
+<ellipse cx="330" cy="688.25" rx="135" ry="16.2" fill="#3A2412" opacity=".35"/>
+<ellipse cx="330" cy="560" rx="150" ry="135" fill="url(#r20)"/>
+<path d="M 330 425 q 4 -14 12 -18" stroke="#5A3A1C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="277.5" cy="499.25" rx="42.00000000000001" ry="18.900000000000002" fill="#fff" opacity=".22" transform="rotate(-25 277.5 499.25)"/>
+</g><defs><radialGradient id="r21" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#C9B874"/><stop offset=".6" stop-color="#8F8543"/><stop offset="1" stop-color="#4E4A22"/></radialGradient></defs>
+<g transform="rotate(5 620 540)">
+<ellipse cx="620" cy="692" rx="157.5" ry="19.2" fill="#3A2412" opacity=".35"/>
+<ellipse cx="620" cy="540" rx="175" ry="160" fill="url(#r21)"/>
+<path d="M 620 380 q 4 -14 12 -18" stroke="#5A3A1C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="558.75" cy="468" rx="49.00000000000001" ry="22.400000000000002" fill="#fff" opacity=".22" transform="rotate(-25 558.75 468)"/>
+</g><defs><radialGradient id="r22" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#A9B86A"/><stop offset=".6" stop-color="#6F8A3E"/><stop offset="1" stop-color="#3F5424"/></radialGradient></defs>
+<g transform="rotate(12 900 575)">
+<ellipse cx="900" cy="687.1" rx="117" ry="14.16" fill="#3A2412" opacity=".35"/>
+<ellipse cx="900" cy="575" rx="130" ry="118" fill="url(#r22)"/>
+<path d="M 900 457 q 4 -14 12 -18" stroke="#5A3A1C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="854.5" cy="521.9" rx="36.400000000000006" ry="16.520000000000003" fill="#fff" opacity=".22" transform="rotate(-25 854.5 521.9)"/>
+</g><defs><radialGradient id="r23" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#B98552"/><stop offset=".6" stop-color="#7A4D26"/><stop offset="1" stop-color="#3D2410"/></radialGradient></defs>
+<g transform="rotate(-15 480 680)">
+<ellipse cx="480" cy="782.6" rx="108" ry="12.959999999999999" fill="#3A2412" opacity=".35"/>
+<ellipse cx="480" cy="680" rx="120" ry="108" fill="url(#r23)"/>
+<path d="M 480 572 q 4 -14 12 -18" stroke="#5A3A1C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="438" cy="631.4" rx="33.6" ry="15.120000000000001" fill="#fff" opacity=".22" transform="rotate(-25 438 631.4)"/>
+</g><defs><radialGradient id="r24" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#D8A96C"/><stop offset=".6" stop-color="#A06C3A"/><stop offset="1" stop-color="#5A3618"/></radialGradient></defs>
+<g transform="rotate(8 770 700)">
+<ellipse cx="770" cy="814" rx="121.5" ry="14.399999999999999" fill="#3A2412" opacity=".35"/>
+<ellipse cx="770" cy="700" rx="135" ry="120" fill="url(#r24)"/>
+<path d="M 770 580 q 4 -14 12 -18" stroke="#5A3A1C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="722.75" cy="646" rx="37.800000000000004" ry="16.8" fill="#fff" opacity=".22" transform="rotate(-25 722.75 646)"/>
+</g>
+<g aria-hidden="true"><rect x="29.3" y="820" width="333.3" height="50.7" rx="25.3" fill="#000" fill-opacity=".45"/>
+<text x="196" y="852" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18.7" letter-spacing="1.9" fill="#F7EBD3">IMAGEN DE DEMOSTRACIÓN</text></g>
+</svg>

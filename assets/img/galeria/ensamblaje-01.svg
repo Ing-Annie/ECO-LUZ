@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Componentes eléctricos listos para el ensamblaje">
+<title>Componentes eléctricos listos para el ensamblaje</title>
+<defs><linearGradient id="w34" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C39163"/><stop offset="1" stop-color="#8A5E36"/></linearGradient>
+<radialGradient id="w34l" cx="30%" cy="0%" r="90%"><stop offset="0" stop-color="#FFF8EA"/><stop offset="1" stop-color="#EFE4D2"/></radialGradient></defs>
+<rect width="1200" height="600" fill="url(#w34l)"/>
+<rect y="600" width="1200" height="300" fill="url(#w34)"/><path d="M 0 678.1 Q 360 677.7 720 678.1 T 1200 673.3" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 694.3 Q 360 697.4 720 694.3 T 1200 691.1" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 727.9 Q 360 727.6 720 727.9 T 1200 724.7" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 644.7 Q 360 645.3 720 644.7 T 1200 648.9" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 866.8 Q 360 873.4 720 866.8 T 1200 869.9" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 722.8 Q 360 722.4 720 722.8 T 1200 721.9" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 830.2 Q 360 826.6 720 830.2 T 1200 827.7" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 760.7 Q 360 758.1 720 760.7 T 1200 758.7" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/><path d="M 0 821.5 Q 360 824.6 720 821.5 T 1200 821.5" stroke="#6E4A2A" stroke-opacity=".25" stroke-width="2" fill="none"/>
+<rect y="600" width="1200" height="5" fill="#D8AE80"/><defs><radialGradient id="r35" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#D8A96C"/><stop offset=".6" stop-color="#A06C3A"/><stop offset="1" stop-color="#5A3618"/></radialGradient></defs>
+<g transform="rotate(0 840 560)">
+<ellipse cx="840" cy="707.25" rx="153" ry="18.599999999999998" fill="#3A2412" opacity=".35"/>
+<ellipse cx="840" cy="560" rx="170" ry="155" fill="url(#r35)"/>
+<path d="M 840 405 q 4 -14 12 -18" stroke="#5A3A1C" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="780.5" cy="490.25" rx="47.6" ry="21.700000000000003" fill="#fff" opacity=".22" transform="rotate(-25 780.5 490.25)"/>
+</g><ellipse cx="840" cy="410" rx="55" ry="16" fill="#2A1608"/>
+<path d="M 180 720 C 120 660 260 620 300 680 S 420 760 380 690 S 300 600 420 620" stroke="#1E1E1E" stroke-width="10" fill="none" stroke-linecap="round"/>
+<rect x="420" y="580" width="70" height="90" rx="10" fill="#8A6A3A"/><rect x="420" y="580" width="22" height="90" rx="8" fill="#B08D55"/>
+<g><circle cx="600" cy="560" r="70" fill="#FFF6DE" stroke="#E6D3A8" stroke-width="3"/><rect x="575" y="620" width="50" height="40" fill="#D8D8D8"/><line x1="575" x2="625" y1="628" y2="632" stroke="#9A9A9A" stroke-width="3"/><line x1="575" x2="625" y1="637" y2="641" stroke="#9A9A9A" stroke-width="3"/><line x1="575" x2="625" y1="646" y2="650" stroke="#9A9A9A" stroke-width="3"/><line x1="575" x2="625" y1="655" y2="659" stroke="#9A9A9A" stroke-width="3"/><path d="M 585 660 h 30 l -8 14 h -14 Z" fill="#555"/></g>
+<g aria-hidden="true"><rect x="29.3" y="820" width="333.3" height="50.7" rx="25.3" fill="#000" fill-opacity=".45"/>
+<text x="196" y="852" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18.7" letter-spacing="1.9" fill="#F7EBD3">IMAGEN DE DEMOSTRACIÓN</text></g>
+</svg>

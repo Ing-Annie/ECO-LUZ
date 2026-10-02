@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- ==============================================================
+       SEO: título y descripción que aparecen en Google.
+       (Son los únicos textos que se editan aquí y no en /datos)
+       ============================================================== -->
+  <title>ECO LUZ | Lámparas de Tutumas Artesanales</title>
+  <meta name="description" content="ECO LUZ crea lámparas artesanales de tutuma, combinando naturaleza, creatividad y diseño para iluminar tus espacios.">
+  <meta name="keywords" content="lámparas de tutuma, lámparas artesanales, tutuma, artesanía boliviana, decoración natural, lámparas hechas a mano, ECO LUZ, Bolivia">
+  <meta name="theme-color" content="#1E130A">
+
+  <!-- Open Graph: vista previa al compartir en WhatsApp / Facebook.
+       Cuando publiques el sitio, reemplaza TU-USUARIO por tu usuario de GitHub. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_BO">
+  <meta property="og:site_name" content="ECO LUZ – Lámparas de Tutumas">
+  <meta property="og:title" content="ECO LUZ | Lámparas de Tutumas Artesanales">
+  <meta property="og:description" content="Lámparas artesanales de tutuma, hechas a mano. Iluminamos tus espacios con la belleza de lo natural.">
+  <meta property="og:url" content="https://TU-USUARIO.github.io/eco-luz/">
+  <meta property="og:image" content="https://TU-USUARIO.github.io/eco-luz/assets/img/og-imagen.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ECO LUZ – Lámparas de Tutumas">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Íconos -->
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&display=swap">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <a class="saltar" href="#catalogo">Saltar al catálogo</a>
+
+  <!-- Aviso que aparece solo si algún archivo de /datos tiene un error -->
+  <div class="aviso-error" id="aviso-error" role="alert" hidden></div>
+
+  <!-- ================= ENCABEZADO ================= -->
+  <header class="encabezado" id="encabezado">
+    <div class="contenedor encabezado__barra">
+      <a class="marca" href="#inicio" aria-label="ECO LUZ, ir al inicio">
+        <img class="marca__logo" data-logo src="assets/img/logo/log.jpeg" alt="" width="44" height="44">
+        <span class="marca__texto" data-marca-texto>
+          <strong data-marca="nombre">ECO LUZ</strong>
+          <small data-marca="subtitulo">Lámparas de Tutumas</small>
+        </span>
+      </a>
+
+      <button class="hamburguesa" id="boton-menu" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" id="menu" aria-label="Menú principal">
+        <ul class="menu__lista">
+          <li><a href="#inicio" data-seccion="inicio">Inicio</a></li>
+          <li><a href="#catalogo" data-seccion="catalogo">Catálogo</a></li>
+          <li><a href="#quienes-somos" data-seccion="quienes-somos">Quiénes Somos</a></li>
+          <li><a href="#proceso" data-seccion="proceso">Nuestro Proceso</a></li>
+          <li><a href="#galeria" data-seccion="galeria">Galería</a></li>
+          <li><a href="#contacto" data-seccion="contacto">Contacto</a></li>
+        </ul>
+        <a class="boton boton--whatsapp boton--chico" data-whatsapp href="#contacto">
+          <span class="icono" data-icono="whatsapp"></span> Comprar por WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= INICIO / HERO ================= -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__destellos" aria-hidden="true"></div>
+      <div class="contenedor hero__grid">
+        <div class="hero__texto">
+          <p class="etiqueta" data-texto="inicio.etiqueta"></p>
+          <h1 class="hero__titulo" id="hero-titulo">
+            <span data-marca="nombre">ECO LUZ</span>
+            <small data-marca="subtitulo">Lámparas de Tutumas</small>
+          </h1>
+          <p class="hero__lema" data-texto="inicio.lema"></p>
+          <p class="hero__descripcion" data-texto="inicio.descripcion"></p>
+          <div class="hero__botones">
+            <a class="boton boton--primario" href="#catalogo"><span data-texto="inicio.botonCatalogo">Ver catálogo</span></a>
+            <a class="boton boton--whatsapp" data-whatsapp href="#contacto">
+              <span class="icono" data-icono="whatsapp"></span> <span data-texto="inicio.botonWhatsapp">Comprar por WhatsApp</span>
+            </a>
+          </div>
+        </div>
+        <figure class="hero__imagen">
+          <img id="hero-imagen" alt="" width="900" height="1100" fetchpriority="high">
+        </figure>
+      </div>
+      <a class="hero__bajar" href="#catalogo" aria-label="Ir al catálogo"></a>
+    </section>
+
+    <div class="franja" aria-hidden="true"></div>
+
+    <!-- ================= CATÁLOGO ================= -->
+    <section class="seccion seccion--crema" id="catalogo" aria-labelledby="catalogo-titulo">
+      <div class="contenedor">
+        <header class="cabecera revelar">
+          <p class="antetitulo" data-texto="catalogo.antetitulo"></p>
+          <h2 id="catalogo-titulo" data-texto="catalogo.titulo">Nuestro Catálogo</h2>
+          <p class="cabecera__texto" data-texto="catalogo.descripcion"></p>
+        </header>
+
+        <p class="aviso-demo" id="aviso-demo" hidden>
+          Los precios e imágenes mostrados son de demostración y serán reemplazados por los reales.
+        </p>
+
+        <div class="filtros" id="filtros-catalogo" role="group" aria-label="Filtrar productos por categoría"></div>
+
+        <div class="catalogo" id="lista-productos" aria-live="polite">
+          <noscript>
+            <p class="catalogo__vacio">Para ver el catálogo activa JavaScript en tu navegador,
+              o escríbenos directamente por <a href="https://wa.me/59175452129">WhatsApp</a>.</p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ¿QUIÉNES SOMOS? ================= -->
+    <section class="seccion seccion--beige" id="quienes-somos" aria-labelledby="nosotros-titulo">
+      <div class="contenedor nosotros">
+        <figure class="nosotros__imagen revelar">
+          <img id="nosotros-imagen" alt="" width="1200" height="900" loading="lazy">
+        </figure>
+        <div class="nosotros__texto revelar">
+          <p class="antetitulo" data-texto="quienesSomos.antetitulo"></p>
+          <h2 id="nosotros-titulo" data-texto="quienesSomos.titulo">¿Quiénes somos?</h2>
+          <div id="nosotros-parrafos"></div>
+          <dl class="nosotros__datos" id="nosotros-datos" hidden></dl>
+        </div>
+      </div>
+      <div class="contenedor">
+        <ul class="valores" id="nosotros-valores"></ul>
+      </div>
+    </section>
+
+    <!-- ================= ¿POR QUÉ SURGIÓ? ================= -->
+    <section class="seccion seccion--crema historia" id="historia" data-nav="quienes-somos" aria-labelledby="historia-titulo">
+      <div class="contenedor contenedor--angosto">
+        <header class="cabecera revelar">
+          <p class="antetitulo" data-texto="historia.antetitulo"></p>
+          <h2 id="historia-titulo" data-texto="historia.titulo">¿Por qué surgió ECO LUZ?</h2>
+        </header>
+        <blockquote class="historia__cita revelar">
+          <p data-texto="historia.introduccion"></p>
+        </blockquote>
+        <ol class="historia__linea" id="historia-capitulos"></ol>
+        <p class="historia__cierre revelar" data-texto="historia.cierre" data-opcional></p>
+      </div>
+    </section>
+
+    <!-- ================= NUESTRO PROCESO ================= -->
+    <section class="seccion seccion--noche" id="proceso" aria-labelledby="proceso-titulo">
+      <div class="contenedor">
+        <header class="cabecera revelar">
+          <p class="antetitulo" data-texto="proceso.antetitulo"></p>
+          <h2 id="proceso-titulo" data-texto="proceso.titulo">De la Tutuma a la Luz</h2>
+          <p class="cabecera__texto" data-texto="proceso.descripcion"></p>
+        </header>
+        <ol class="pasos" id="lista-pasos"></ol>
+      </div>
+    </section>
+
+    <!-- ================= GALERÍA ================= -->
+    <section class="seccion seccion--beige" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="contenedor">
+        <header class="cabecera revelar">
+          <p class="antetitulo" data-texto="galeria.antetitulo"></p>
+          <h2 id="galeria-titulo" data-texto="galeria.titulo">Galería</h2>
+          <p class="cabecera__texto" data-texto="galeria.descripcion"></p>
+        </header>
+        <div class="filtros" id="filtros-galeria" role="group" aria-label="Filtrar fotos por categoría"></div>
+        <ul class="galeria" id="lista-galeria"></ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="seccion seccion--crema" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="contenedor">
+        <div class="contacto revelar" id="tarjeta-contacto">
+          <div class="contacto__principal">
+            <p class="antetitulo" data-texto="contacto.antetitulo"></p>
+            <h2 id="contacto-titulo" data-texto="contacto.titulo">Contáctanos</h2>
+            <p class="contacto__marca"><span data-marca="nombre">ECO LUZ</span> – <span data-marca="subtitulo">Lámparas de Tutumas</span></p>
+            <p data-texto="contacto.descripcion"></p>
+            <p class="contacto__numero">
+              <span class="icono" data-icono="whatsapp"></span>
+              <span>WhatsApp: <strong data-whatsapp-numero>+591 75452129</strong></span>
+            </p>
+            <a class="boton boton--whatsapp boton--grande" data-whatsapp href="#contacto">
+              <span class="icono" data-icono="whatsapp"></span> <span data-texto="contacto.boton">Escribir por WhatsApp</span>
+            </a>
+          </div>
+          <div class="contacto__extra" id="contacto-extra" hidden></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="franja" aria-hidden="true"></div>
+
+  <!-- ================= PIE DE PÁGINA ================= -->
+  <footer class="pie">
+    <div class="contenedor pie__grid">
+      <div class="pie__marca">
+        <img data-logo src="assets/img/logo/log.jpeg" alt="" width="56" height="56" loading="lazy">
+        <div>
+          <p class="pie__nombre" data-marca="nombre">ECO LUZ</p>
+          <p class="pie__sub" data-marca="subtitulo">Lámparas de Tutumas</p>
+        </div>
+      </div>
+      <p class="pie__frase" data-texto="pie.frase"></p>
+      <nav aria-label="Enlaces del pie de página">
+        <ul class="pie__enlaces">
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#quienes-somos">Quiénes Somos</a></li>
+          <li><a href="#proceso">Nuestro Proceso</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="contenedor pie__legal">
+      <p>© <span id="anio"></span> <span data-marca="nombre">ECO LUZ</span>. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="whatsapp-flotante" data-whatsapp href="#contacto" aria-label="Escríbenos por WhatsApp">
+    <span class="icono" data-icono="whatsapp"></span>
+    <span class="whatsapp-flotante__texto">¿Te ayudamos?</span>
+  </a>
+
+  <!-- Visor de imágenes ampliadas (galería y catálogo) -->
+  <div class="visor" id="visor" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+    <button class="visor__boton visor__cerrar" type="button" data-visor="cerrar" aria-label="Cerrar">×</button>
+    <button class="visor__boton visor__anterior" type="button" data-visor="anterior" aria-label="Imagen anterior">‹</button>
+    <figure class="visor__figura">
+      <img id="visor-imagen" alt="">
+      <figcaption id="visor-texto"></figcaption>
+    </figure>
+    <button class="visor__boton visor__siguiente" type="button" data-visor="siguiente" aria-label="Imagen siguiente">›</button>
+  </div>
+
+  <!-- ==============================================================
+       ARCHIVOS DE DATOS (editables) y lógica del sitio.
+       El orden importa: primero los datos, al final app.js.
+       ============================================================== -->
+  <script src="datos/configuracion.js"></script>
+  <script src="datos/productos.js"></script>
+  <script src="datos/contenido.js"></script>
+  <script src="datos/proceso-galeria.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

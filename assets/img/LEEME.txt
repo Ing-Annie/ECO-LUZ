@@ -1,0 +1,20 @@
+IMÁGENES DE ECO LUZ
+===================
+
+Las imágenes actuales son ILUSTRACIONES DE DEMOSTRACIÓN (archivos .svg con la
+etiqueta "IMAGEN DE DEMOSTRACIÓN"). Reemplázalas por fotos reales.
+
+Dónde va cada foto:
+
+  hero/        Foto grande de la portada (vertical, aprox. 900 x 1100 px)
+  productos/   Fotos del catálogo (cuadradas, aprox. 1000 x 1000 px)
+  galeria/     Fotos del proceso y de la galería (horizontales, aprox. 1200 x 900 px)
+  logo/        Logo del emprendimiento (logo.png, cuadrado, fondo transparente)
+
+Después de subir una foto, escribe su ruta en el archivo correspondiente de la
+carpeta /datos. Ejemplo:  imagen: "assets/img/productos/lampara-colgante.jpg",
+
+Consejos:
+  - Nombres en minúsculas, sin espacios ni tildes:  lampara-natural-01.jpg
+  - Formato .jpg o .webp, menos de 300 KB (puedes comprimir en https://squoosh.app)
+  - sin-imagen.svg y og-imagen.jpg son usadas por el sitio: no las borres.
